@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rooms</title>
+    <link href="https://fonts-googleapis.com/css?family=Poppins&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/navbar.css"/>
+    <link rel="stylesheet" href="../css/rooms.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link href="https://fonts-googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ======================================Beginning of header=====================================-->
+  <header>
+  	<div class="header_container">
+		<div class="header_intro">
+  			<div class="header_logo">
+  				<p>Karamo <br class="logo_breakline">Hotel</p>
+  			</div>
+  			<ul class="header_navbar">
+              <li><a class="header_link" href="contactUs.html">Contact</a></li>
+	          <li><a class="header_link" href="facilities.html">Facilities</a></li>
+	          <li><a class="header_link active" href="#">Rooms</a></li>
+	          <li><a class="header_link" href="../index.html">Home</a></li>
+	        </ul>
+	        <div><i class="fa fa-bars" id="menu_icon" onclick="menu_icon()"></i></div>
+  		</div>
+      <div class="header_navbar--mobile">
+          <a class="header_link--mobile header_link--mobile--active" href="../index.html">Home</a>
+          <a class="header_link--mobile" href="#">Rooms</a>
+           <a class="header_link--mobile" href="facilities.html">Facilities</a>
+          <a class="header_link--mobile" href="contactUs.html">Contact</a> 
+      </div>
+  		<img class="header_slider" src="../images/4a0958735462572.png">
+      <div class="header_slogan other_slogans">ROOMS</div>
+  	</div>
+  </header>
+  <!-- ==========================================Ending of header===================================-->
+
+  <!-- Rooms Price section  -->
+  <div id="rooms-container">
+    <div class="room-view">
+      <div class="room-image room-one-image">
+        <h3>Karamo Suite Superior</h3>
+      </div>
+      <div class="room-description">
+        <p>Standard with a kingsize bed and a mini parlour. Very comfortable and spacious room with a modern design. This room comes with a special package of free spa treatment evry weekend.</p>
+        <div class="room-action">
+          <a href="#" class="booking-btn"> Book Now </a>
+          <h2> <span>₦</span>100,000/night </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="room-view">
+      <div class="room-image room-two-image">
+        <h3>Karamo Premium Room</h3>
+      </div>
+      <div class="room-description">
+        <p>Standard with a kingsize bed and a mini parlour. Very comfortable and spacious room with a modern design. This room comes with a special package of free spa treatment evry weekend.</p>
+        <div class="room-action">
+          <a href="#" class="booking-btn"> Book Now </a>
+          <h2> <span>₦</span>70,000/night </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="room-view">
+      <div class="room-image room-three-image">
+        <h3>Karamo Single Room</h3>
+      </div>
+      <div class="room-description">
+        <p>Standard with a kingsize bed and a mini parlour. Very comfortable and spacious room with a modern design. This room comes with a special package of free spa treatment evry weekend.</p>
+        <div class="room-action">
+          <a href="#" class="booking-btn"> Book Now </a>
+          <h2> <span>₦</span>100,000/night </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- beginning of footer -->
+  <div class="footer">
+    <h3 class="footer-logo">
+      Karamo <br class="line-break">
+      Hotel
+    </h3>
+    <div class="address">
+      <h3>Location</h3>
+      <div class="location">
+        <p>
+          No 245 Adeola Akegun street, <br>
+          Lagos,<br />
+          Nigeria.
+        </p>
+
+        <Telephone>+234809489736</Telephone><br />
+        <email>karamohetel@gmail.com</email>
+      </div>
+    </div>
+    <div class="follow">
+      <h3>Connect with Us:</h3>
+      <br />
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-youtube-play"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <p class="copyright">Team-Granite &copy; 2020</p>
+    </div>
+  </div>
+  <script src="../javascript/jquery.js"></script>
+  <script src="../javascript/navbar.js"></script>
+</body>
+
+    <script>
+      const pbook = document.querySelector(".p-book");
+
+    console.log(pbook);
+
+    pbook.addEventListener('click', function(e){
+        e.preventDefault();
+
+    });
+
+    const pbook2 = document.querySelector(".p-book2");
+
+    console.log(pbook2);
+
+    pbook2.addEventListener('click', function(e){
+        e.preventDefault();
+    });
+
+    const pbook3 = document.querySelector(".p-book3");
+
+    console.log(pbook3);
+
+    pbook3.addEventListener('click', function(e){
+        e.preventDefault();
+      });
+
+    </script>
+
+</html>

@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: montserrat;
+    padding: 0px;
+    margin:0px;
+}
+/*====================================body container===============================*/ 
+.bodyContainer {
+  background: #E5E5E5;
+  height: 1300px;
+  width: 100%;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6
+{
+  width: 30%;
+  height: 386px;
+  margin-left: 2.5%;
+  margin-top: 85px;
+  text-align: center;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+.pic1, .pic2, .pic3
+{
+  margin-top: 50px;
+}
+.pic1 .name, .pic2 .name, .pic3 .name, .pic4 .name, .pic5 .name, .pic6 .name
+{
+  height: 37px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 400px;
+}
+
+.pic1 .description, .pic2 .description, .pic3 .description, .pic4 .description, .pic5 .description, .pic6 .description
+{
+  height: 98px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 470px;
+}
+.pic1{
+  order: 1;
+  background-image: url(../images/img1.png);
+}
+.pic2{
+  order: 2;
+  background-image: url(../images/img2.png);
+}
+.pic3{
+  order: 3;
+  background-image: url(../images/img3.png);
+}
+.pic4{
+  order: 4;
+  background-image: url(../images/img4.png);
+}
+.pic5{
+  order: 5;
+  background-image: url(../images/img5.png);
+}
+.pic6{
+  order: 6;
+  background-image: url(../images/img6.png);
+}
+.pic1 img, .pic2 img, .pic3 img, .pic4 img, .pic5 img, .pic6 img{
+  margin-top: 140px;
+}
+/*======================Ending of body container=============================================*/
+
+/*====================All Responsiveness=============================*/
+@media screen and (max-width: 1200px){
+  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    width: 40%;
+    margin-left: 6.7%;
+  }
+  .pic3{
+    margin-top: 150px;
+  }
+  .bodyContainer {
+    height: 1950px;
+  }
+}
+@media screen and (max-width: 825px){
+  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .pic3, .pic2{
+    margin-top: 150px;
+  }
+  .bodyContainer {
+    height: 3850px;
+  }
+}
+@media screen and (max-width: 420px){
+  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  .pic3, .pic2{
+    margin-top: 160px;
+  }
+  .bodyContainer {
+    height: 3900px;
+  }
+  .pic6 .description{
+    top: 480px;
+  }
+}
+  
